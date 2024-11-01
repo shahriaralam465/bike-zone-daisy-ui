@@ -18,6 +18,10 @@
 
     <!-- Styles -->
     <style>
+        .orange {
+            color: rgb(231, 111, 81);
+        }
+
         .font-poppins {
             font-family: "Poppins", sans-serif;
         }
@@ -174,11 +178,83 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
+        </div>
     </header>
 
     <!-- Main section -->
     <main class="md:container mx-auto">
+        <!-- feature bike section  -->
+        <section class="lg:my-32 my-12">
+            <!-- content container  -->
+            <div class="text-center space-y-5">
+                <h1 class="text-5xl font-bold">Fetured Bikes In This Year</h1>
+                <div>
+                    <p class="text-sm font-medium orange">Best bike collection</p>
+                    <div class="bg-bike-primary rounded w-[60px] h-[5px] place-self-center"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-10 place-items-center my-10">
+                    <img class="grayscale" src="./images/others/feature-bike.png" alt="">
+                    <img class="saturate-50" src="./images/others/feature-bike.png" alt="">
+                    <img class="hue-rotate-15" src="./images/others/feature-bike.png" alt="">
+                </div>
+            </div>
+        </section>
 
+        <!-- Latest Bike section -->
+        <section class="space-y-10 lg:my-24 my-12">
+            <!-- content container  -->
+            <div>
+                <h2 class="text-5xl font-bold text-center">latest News</h2>
+            </div>
+
+            <!-- Cards Container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 place-items-center">
+                <!-- card 1 -->
+                <div class="card bg-base-100 w-full shadow-xl space-y-3 p-5">
+                    <figure>
+                        <img class="w-full" src="./images/others/latest1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body p-0">
+                        <h2 class="card-title text-2xl font-bold">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions mt-4">
+                            <button class="btn  bg-bike-primary text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-base-100 w-full shadow-xl space-y-3 p-5">
+                    <figure>
+                        <img class="w-full" src="./images/others/latest2.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body p-0">
+                        <h2 class="card-title text-2xl font-bold">Motorcycles & Scooters</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions mt-4">
+                            <button class="btn  bg-bike-primary text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 w-full shadow-xl space-y-3 p-5">
+                    <figure>
+                        <img class="w-full" src="./images/others/latest3.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body p-0">
+                        <h2 class="card-title text-2xl font-bold">2021 Honda CBR500R</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions mt-4">
+                            <button class="btn  bg-bike-primary text-white">Read More</button>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+        </section>
     </main>
 
     <!-- Footer -->
